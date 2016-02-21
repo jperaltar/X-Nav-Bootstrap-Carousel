@@ -10,16 +10,122 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- Carousel extra styles -->
     <link rel="stylesheet" href="css/carousel.css">
+    <!-- 3D Buttons -->
+    <link rel="stylesheet" href="css/button3D.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Esto es un ejercicio para hacer una página para la ETSIT URJC con componentes de Boostrap.</h1>
+    <nav class="navbar navbar-default">
+      <a href="#" class="navbar-brand"><img src="images/logoURJC.jpg" alt="logo"/></a>
+    </nav>
 
-    <p>La página web ha de usar al menos:</p>
-    <ul>
-      <li>Un <i>carousel</i> (con su barra de navegación)</li>
-      <li>Al menos dos componentes más de Boostrap (a elección del alumno)</<li>
-      <li>Al menos un componente de <a href="http://www.bootsnipp.com">Bootsnipp</a></li>
-    </ul>
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+      <!-- Overlay -->
+      <div class="overlay"></div>
+
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#bs-carousel" data-slide-to="1"></li>
+        <li data-target="#bs-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item slides active">
+          <div class="slide-1"></div>
+          <div class="hero">
+            <hgroup>
+                <h1>We are creative</h1>
+                <h3>We are CursosWeb URJC</h3>
+            </hgroup>
+          </div>
+        </div>
+        <div class="item slides">
+          <div class="slide-2"></div>
+          <div class="hero">
+            <hgroup>
+                <h1>We are smart</h1>
+                <h3>We are CursosWeb URJC</h3>
+            </hgroup>
+          </div>
+        </div>
+        <div class="item slides">
+          <div class="slide-3"></div>
+          <div class="hero">
+            <hgroup>
+                <h1>We are amazing</h1>
+                <h3>We are CursosWeb URJC</h3>
+            </hgroup>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Programas</h3>
+          </div>
+          <div class="panel-body">
+            Programas de los cursos.
+            Incluyen planificación temporal de las clases,
+            enunciados de ejercicios y prácticas,
+            exámenes de cursos pasados, etc.
+            <br>
+            <button type="button" class="btn btn-default btn-sm btn3d">Más Información</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Código</h3>
+          </div>
+          <div class="panel-body">
+            Código usado para resolver los ejercicios o prácticas.
+            <br>
+            <button type="button" class="btn btn-default btn-sm btn3d">Más Información</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Transparencias</h3>
+          </div>
+          <div class="panel-body">
+            Transparencias usadas en las sesiones de los cursos.
+            <br>
+            <button type="button" class="btn btn-default btn-sm btn3d">Más Información</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Recursos</h3>
+          </div>
+          <div class="panel-body">
+            Enlaces a recursos externos (libros, programas, etc.) que pueden ser de interés.
+            <br>
+            <button type="button" class="btn btn-default btn-sm btn3d">Más Información</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Alumnos</h3>
+          </div>
+          <div class="panel-body">
+            Materiales producidos por alumnos de estos cursos.
+            <br>
+            <button type="button" class="btn btn-default btn-sm btn3d">Más Información</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

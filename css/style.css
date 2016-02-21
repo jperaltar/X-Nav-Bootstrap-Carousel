@@ -1,0 +1,51 @@
+/*Navbar*/
+.navbar {
+  position: relative;
+}
+
+.navbar img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: inherit;
+}
+
+/*Carousel*/
+.carousel {
+  position: relative;
+  margin-top: -20px;
+}
+
+/*Page sections*/
+.row {
+  padding: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.col-md-4 {
+  height: 100%;
+}
+
+.panel {
+  height: inherit;
+}
+
+.panel-body {
+  padding-bottom: 0px;
+}
+
+/*3D Button modifiers*/
+.btn3d:active, .btn3d.active {
+    top:0px;
+}
+.btn3d.btn-default {
+    color: #666666;
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255,255,255,0.10) inset, 0 4px 0 0 #BEBEBE, 0 4px 4px 1px rgba(0,0,0,.2);
+    background-color:#f9f9f9;
+}
+.btn3d.btn-default:active, .btn3d.btn-default.active {
+    color: #666666;
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,.1);
+    background-color:#f9f9f9;
+}
